@@ -1,0 +1,54 @@
+<resources>
+    <string name="app_name">Rom Control</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="dialog_color_picker">Выберите цвет</string>
+    <string name="press_color_to_apply">Нажмите для применения</string>
+    <string name="root_progress_dialog_title">Acquiring Root Access</string>
+    <string name="root_progress_dialog_message">Please wait…</string>
+    <string name="no_su_dialog_title">No root privileges</string>
+    <string name="no_su_dialog_message">We could not acquire root access on your device.\n\nMost of this app\'s functions can be performed without root access. However, you might experience problems with running scripts or rebooting.\n\nWe strongly recommend to allow root access on next request or allow such access in your Su client manually.</string>
+    <string name="no_su_dialog_dismiss_button_text">Whatever, man</string>
+    <string name="command_executed_success_toast">Executed successfully</string>
+    <string name="root_tools_exception_toast">File not found or root denied</string>
+    <string name="reboot_menu">Меню перезагрузки</string>
+    <string name="reboot_device_text">Перезагрузка</string>
+    <string name="reboot_recovery_text">Перезагрузка в рекавери</string>
+    <string name="reboot_ui_text">Перезагрузка SystemUI</string>
+    <string name="app_reboot_required_dialog_title">Требуется перезагрузка</string>
+    <string name="app_reboot_required_dialog_message">%1$s будет перезагружен для применения изменений.\n\nНажмите OK для перезагрузки</string>
+    <string name="theme_dialog_title">Выбрать тему</string>
+    <string name="changelog_version_title">ROM version: %1$s</string>
+    <string name="backup_restore_dialog_title">Копировать/восстановить данные Rom Control</string>
+    <string name="choose_backup_dialog_title">Пожалуйста, выберите копию для восстановления</string>
+    <string name="no_backup_dialog_title">Не обнаружено резервных копий на этом устройстве</string>
+    <string name="no_backup_dialog_message">Вы хотите создать новую резервную копию прямо сейчас?</string>
+    <string name="restore_confirm_dialog_title">Пожалуйста, подтвердите восстановление</string>
+    <string name="restore_confirm_message">Вы выбрали для восстановления данные предыдущего Rom Control.\n\n<b>Please note! This operation will change your device settings based on the settings stored in this file.\n\n<font fgcolor="red">DO NOT PROCEED unless absolutely sure!!!</font></b>\n\nRom Control will close to allow data restoration and reopen again upon its completion. Depending on the amount of your settings this may take some time.\n\nPlease click \"CONFIRM\" to proceed or \"CANCEL\" to quit.</string>
+    <string name="backup_complete_toast">Резервное копирование завершено успешно. Файл резервной копии находится\n%1$s</string>
+    <string name="restore_complete_toast">Восстановление завершено</string>
+    <string name="systemui_prefs">Интерфейс</string>
+    <string name="phone_prefs">Телефон</string>
+    <string name="twlauncher_prefs">Лаунчер</string>
+    <string name="app_prefs">Приложения</string>
+    <string name="framework_prefs">Система</string>
+    <string name="test_prefs">Тест</string>
+    <string name="more_options">Дополнительные опции</string>
+    <string name="set_theme">Тема</string>
+    <string name="backup_and_restore"><![CDATA[Бекап и восстановление]]></string>
+    <string name="changelog">Changelog</string>
+    <string name="about_us">О нас</string>
+    <string name="confirm_script_dialog_message">"Вы уверены, что хотите запустить %1$s?"</string>
+    <string name="run_script_confirm_dialog_title">Требуется подтверждение</string>
+    <string name="run_script_confirm_dialog_positive_button">Да, запустить</string>
+    <string name="find_app">Найти приложение</string>
+    <string name="reboot_required_dialog_title">Перезагрузить устройство</string>    
+	<string name="reboot_required_dialog_message">Для применения, требуется перезагрузка устройства. Хотите перезагрузить сейчас?</string>
+    <string name="reboot_later_negative_button">позже</string>
+    <string name="reboot_now_dialog_button">перезагрузить</string>
+    <string name="imminent_reboot_warning">Устройство будет перезагружен сразу же после завершения сценария!!!</string>
+
+    <!--These strings are to set the default fragment to open for the first time the app launches-->
+</resources>
