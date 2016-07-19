@@ -83,4 +83,23 @@
         <item>1</item>
         <item>2</item>
     </string-array>
+
+    <string-array name="tw_effect_entries">
+        <item>Нет</item>
+        <item>Каскад</item>
+        <item>Внешний куб</item>
+        <item>Внутренний куб</item>
+        <item>Карусель</item>
+        <item>Конвейер</item>
+        <item>Карты</item>
+    </string-array>
+    <string-array name="tw_effect_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>7</item>
+        <item>8</item>
+    </string-array>
 </resources>

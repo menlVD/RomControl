@@ -5,5 +5,18 @@
     <com.wubydax.romcontrol.v2.prefs.ImageHeaderPreference
         app:imageSource="@drawable/android"/>
 
+    <PreferenceCategory
+        android:title="Эффекты перехода рабочих столов">
+
+        <com.wubydax.romcontrol.v2.prefs.MyListPreference
+            android:entryValues="@array/tw_effect_values"
+            android:entries="@array/tw_effect_entries"
+            android:key="tw_page_effect"
+            android:defaultValue="1"
+            android:title="Эффект перехода"
+            app:packageNameToKill="com.sec.android.app.launcher"/>
+
+    </PreferenceCategory>
+
 
 </PreferenceScreen>
