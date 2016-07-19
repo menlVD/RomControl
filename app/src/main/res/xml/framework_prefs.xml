@@ -3,4 +3,12 @@
                   xmlns:app="http://schemas.android.com/apk/res-auto">
     <com.wubydax.romcontrol.v2.prefs.ImageHeaderPreference
         app:imageSource="@drawable/android"/>
+
+    <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
+        android:defaultValue="true"
+        android:key="usb_plugged"
+        android:summaryOff="Отключен"
+        android:summaryOn="Включен"
+        android:title="Экран при подключении к USB"/>
+
 </PreferenceScreen>
