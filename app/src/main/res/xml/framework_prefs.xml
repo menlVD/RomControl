@@ -11,4 +11,43 @@
         android:summaryOn="Включен"
         android:title="Экран при подключении к USB"/>
 
+    <PreferenceScreen
+        android:title="Меню перезагрузки">
+
+        <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
+            android:defaultValue="true"
+            android:key="power_off"
+            android:summaryOff="Скрыть"
+            android:summaryOn="Показать"
+            android:title="Выключение"/>
+
+        <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
+            android:defaultValue="true"
+            android:key="restart"
+            android:summaryOff="Скрыть"
+            android:summaryOn="Показать"
+            android:title="Перезагрузка"/>
+
+        <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
+            android:defaultValue="true"
+            android:key="reboot_recovery"
+            android:summaryOff="Скрыть"
+            android:summaryOn="Показать"
+            android:title="Перезагрузка в рекавери"/>
+
+        <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
+            android:defaultValue="false"
+            android:key="screenshot"
+            android:summaryOff="Скрыть"
+            android:summaryOn="Показать"
+            android:title="Скриншот"/>
+
+        <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
+            android:defaultValue="false"
+            android:key="screen_record"
+            android:summaryOff="Скрыть"
+            android:summaryOn="Показать"
+            android:title="Запись экрана"/>
+    </PreferenceScreen>
+
 </PreferenceScreen>
