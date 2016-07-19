@@ -43,7 +43,7 @@
             android:title="Скриншот"/>
 
         <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
-            android:defaultValue="false"
+            android:defaultValue="1"
             android:key="screen_record"
             android:summaryOff="Скрыть"
             android:summaryOn="Показать"
