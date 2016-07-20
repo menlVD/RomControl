@@ -28,7 +28,7 @@
     <!--In this array you will put the titles for your contact info items. Keep the order consistent between all 3 arrays-->
     <string-array name="about_contact_us_text">
         <item>ROMControl</item>
-        <item>Моды для S6</item>
+        <item>S6 Mods</item>
         <item>TouchwizMods</item>
     </string-array>
 
@@ -46,7 +46,7 @@
         <item>@drawable/kep</item>
     </array>
     <string-array name="about_team_names">
-        <item>kep2008 - перевод и моды</item>
+        <item>kep2008 - translation and mods</item>
     </string-array>
     <string-array name="about_team_links" translatable="false">
         <item>http://4pda.ru/forum/index.php?showuser=3080117</item>
@@ -62,8 +62,8 @@
         <item>@drawable/da</item>
     </array>
     <string-array name="about_credits_names">
-        <item>daxgirl - разработчик Rom Control</item>
-        <item>Wuby986 - разработчик Rom Control</item>
+        <item>daxgirl - Rom Control developer</item>
+        <item>Wuby986 - Rom Control developer</item>
         <item>tdunham</item>
         <item>DaOldMan</item>
     </string-array>

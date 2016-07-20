@@ -1,18 +1,16 @@
 <resources>
     <string name="app_name">Rom Control</string>
-
-    <string name="navigation_drawer_open">Open navigation drawer</string>
-    <string name="navigation_drawer_close">Close navigation drawer</string>
-
+    <string name="navigation_drawer_open">Открыть панель навигации</string>
+    <string name="navigation_drawer_close">Закрыть панель навигации</string>
     <string name="dialog_color_picker">Выберите цвет</string>
     <string name="press_color_to_apply">Нажмите для применения</string>
-    <string name="root_progress_dialog_title">Acquiring Root Access</string>
-    <string name="root_progress_dialog_message">Please wait…</string>
-    <string name="no_su_dialog_title">No root privileges</string>
-    <string name="no_su_dialog_message">We could not acquire root access on your device.\n\nMost of this app\'s functions can be performed without root access. However, you might experience problems with running scripts or rebooting.\n\nWe strongly recommend to allow root access on next request or allow such access in your Su client manually.</string>
-    <string name="no_su_dialog_dismiss_button_text">Whatever, man</string>
-    <string name="command_executed_success_toast">Executed successfully</string>
-    <string name="root_tools_exception_toast">File not found or root denied</string>
+    <string name="root_progress_dialog_title">Получить корневой доступ</string>
+    <string name="root_progress_dialog_message">Пожалуйста, подождите…</string>
+    <string name="no_su_dialog_title">Нет корневого доступа</string>
+    <string name="no_su_dialog_message">Мы не могли получить доступ к корню на вашем устройстве.\n\nБольшая часть этого приложения\'s функции могут быть выполнены без корневого доступа. Тем не менее , у вас могут возникнуть проблемы с запуском скриптов или перезагрузкой.\n\nМы настоятельно рекомендуем , чтобы разрешить доступ к корню на следующий запрос или разрешить такой доступ в клиенте Су вручную.</string>
+    <string name="no_su_dialog_dismiss_button_text">Какой бы ни, человек</string>
+    <string name="command_executed_success_toast">Совершено успешно</string>
+    <string name="root_tools_exception_toast">Файл не найден или корень отказано</string>
     <string name="reboot_menu">Меню перезагрузки</string>
     <string name="reboot_device_text">Перезагрузка</string>
     <string name="reboot_recovery_text">Перезагрузка в рекавери</string>
@@ -20,7 +18,6 @@
     <string name="app_reboot_required_dialog_title">Требуется перезагрузка</string>
     <string name="app_reboot_required_dialog_message">%1$s будет перезагружен для применения изменений.\n\nНажмите OK для перезагрузки</string>
     <string name="theme_dialog_title">Выбрать тему</string>
-    <string name="changelog_version_title">ROM version: %1$s</string>
     <string name="backup_restore_dialog_title">Копировать/восстановить данные Rom Control</string>
     <string name="choose_backup_dialog_title">Пожалуйста, выберите копию для восстановления</string>
     <string name="no_backup_dialog_title">Не обнаружено резервных копий на этом устройстве</string>
@@ -38,7 +35,6 @@
     <string name="more_options">Дополнительные опции</string>
     <string name="set_theme">Тема</string>
     <string name="backup_and_restore"><![CDATA[Бекап и восстановление]]></string>
-    <string name="changelog">Changelog</string>
     <string name="about_us">О нас</string>
     <string name="confirm_script_dialog_message">"Вы уверены, что хотите запустить %1$s?"</string>
     <string name="run_script_confirm_dialog_title">Требуется подтверждение</string>

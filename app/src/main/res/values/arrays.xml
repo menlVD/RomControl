@@ -14,18 +14,6 @@
         along with this program.  If not, see <http://www.gnu.org/licenses/>.*/-->
 <resources>
 
-    <string-array name="test_list_entries">
-        <item>One</item>
-        <item>Two</item>
-        <item>Three</item>
-        <item>Let\'s make twenty</item>
-    </string-array>
-    <string-array name="test_list_values" translatable="false">
-        <item>1</item>
-        <item>2</item>
-        <item>3</item>
-        <item>20</item>
-    </string-array>
     <string-array name="theme_items">
         <item>Light theme</item>
         <item>Dark theme</item>
@@ -34,19 +22,6 @@
         <item>Backup data</item>
         <item>Restore data</item>
     </string-array>
-
-    <string-array name="thumbnail_items">
-        <item>Icon 1</item>
-        <item>Icon 2</item>
-    </string-array>
-    <string-array name="thumbnail_values" translatable="false">
-        <item>1</item>
-        <item>2</item>
-    </string-array>
-    <array name="thumbnail_drawables">
-        <item>@drawable/icon_6</item>
-        <item>@drawable/icon_5</item>
-    </array>
 
     <string-array name="custom_bg_type_entries">
         <item>Image</item>
@@ -85,13 +60,13 @@
     </string-array>
 
     <string-array name="tw_effect_entries">
-        <item>Нет</item>
-        <item>Каскад</item>
-        <item>Внешний куб</item>
-        <item>Внутренний куб</item>
-        <item>Карусель</item>
-        <item>Конвейер</item>
-        <item>Карты</item>
+        <item>None</item>
+        <item>Cascade</item>
+        <item>Outer cube</item>
+        <item>Inner Cube</item>
+        <item>Carousal</item>
+        <item>Conveyor</item>
+        <item>Card</item>
     </string-array>
     <string-array name="tw_effect_values">
         <item>1</item>

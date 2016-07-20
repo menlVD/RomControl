@@ -6,6 +6,6 @@
         app:componentName="com.three.minit.minitbatterysettings.free/com.three.minit.minitbatterysettings.MainActivity"/>
 
     <com.wubydax.romcontrol.v2.prefs.OpenAppPreference
-        app:componentName="com.wubydax.geartwswipe/com.wubydax.geartwswipe.SetAppActivity"/>
+        app:componentName="com.wubydax.geartwswipe/com.wubydax.geartwswipe.ResetDialogActivity"/>
 
 </PreferenceScreen>

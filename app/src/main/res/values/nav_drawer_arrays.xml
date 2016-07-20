@@ -29,7 +29,6 @@
         <item>@drawable/ic_home</item>
         <item>@drawable/ic_system</item>
         <item>@drawable/ic_app</item>
-        <item>@drawable/ic_framework</item>
     </array>
 
 
@@ -42,7 +41,6 @@
         <item>@string/twlauncher_prefs</item>
         <item>@string/framework_prefs</item>
         <item>@string/app_prefs</item>
-        <item>@string/test_prefs</item>
     </string-array>
 
 
@@ -56,6 +54,5 @@
         <item>twlauncher_prefs</item>
         <item>framework_prefs</item>
         <item>app_prefs</item>
-        <item>test_prefs</item>
     </string-array>
 </resources>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="about_contact_us_text">
+        <item>ROMControl</item>
+        <item>Моды для S6</item>
+        <item>TouchwizMods</item>
+    </string-array>
+
+    <string-array name="about_team_names">
+        <item>kep2008 - перевод и моды</item>
+    </string-array>
+
+    <string-array name="about_credits_names">
+        <item>daxgirl - разработчик Rom Control</item>
+        <item>Wuby986 - разработчик Rom Control</item>
+        <item>tdunham</item>
+        <item>DaOldMan</item>
+    </string-array>
+</resources>
