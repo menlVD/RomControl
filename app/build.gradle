@@ -20,14 +20,14 @@ keystoreProperties.load(new FileInputStream(keystorePropertiesFile))
 
 
 android {
-//    signingConfigs {
-//        gearSigningConfig {
-//            keyAlias keystoreProperties['keyAlias']
-//            keyPassword keystoreProperties['keyPassword']
-//            storeFile file(keystoreProperties['storeFile'])
-//            storePassword keystoreProperties['storePassword']
-//        }
-//    }
+    signingConfigs {
+        gearSigningConfig {
+            keyAlias keystoreProperties['keyAlias']
+            keyPassword keystoreProperties['keyPassword']
+            storeFile file(keystoreProperties['storeFile'])
+            storePassword keystoreProperties['storePassword']
+        }
+    }
     compileSdkVersion 24
     buildToolsVersion "23.0.3"
     defaultConfig {
@@ -36,7 +36,7 @@ android {
         //noinspection OldTargetApi
         targetSdkVersion 22
         versionCode 1
-        versionName "1.0"
+        versionName "1.1"
         project.archivesBaseName = "RomControl"
     }
 
@@ -45,7 +45,7 @@ android {
             shrinkResources true
             minifyEnabled true
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
-//            signingConfig signingConfigs.gearSigningConfig
+            signingConfig signingConfigs.gearSigningConfig
             applicationVariants.all { variant ->
                 variant.outputs.each { output ->
                     output.outputFile = new File(output.outputFile.parent,
