@@ -272,4 +272,16 @@
         </PreferenceScreen>
     </PreferenceScreen>
 
+    <PreferenceScreen
+        android:title="Зкран блокировки">
+        <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
+            android:defaultValue="true"
+            android:key="lock_clock"
+            android:summaryOff="Скрыть"
+            android:summaryOn="Показать"
+            android:title="Часы и дата"
+            app:isSilent="false"
+            app:packageNameToKill="com.android.systemui"/>
+    </PreferenceScreen>
+
 </PreferenceScreen>
