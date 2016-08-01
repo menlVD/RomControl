@@ -282,6 +282,14 @@
             android:title="Часы и дата"
             app:isSilent="false"
             app:packageNameToKill="com.android.systemui"/>
+        <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
+            android:defaultValue="true"
+            android:key="unlock_guide_text"
+            android:summaryOff="Скрыть"
+            android:summaryOn="Показать"
+            android:title="Текст Для разблокировки..."
+            app:isSilent="false"
+            app:packageNameToKill="com.android.systemui"/>
     </PreferenceScreen>
 
 </PreferenceScreen>
