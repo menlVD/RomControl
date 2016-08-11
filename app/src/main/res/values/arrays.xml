@@ -169,4 +169,77 @@
         <item>EEEE dd/MM</item>
         <item>EEEE MM/dd</item>
     </string-array>
+
+    <string-array name="home_doubletap">
+        <item>Disabled</item>
+        <item>Application</item>
+        <item>Flashlight</item>
+        <item>Kill App</item>
+        <item>Recent Apps</item>
+        <item>Screenshot</item>
+        <item>Screen Recorder</item>
+        <item>Google Now</item>
+        <item>Voice Command (Stock)</item>
+        <item>Lock Phone</item>
+    </string-array>
+    <string-array name="home_doubletap_values">
+        <item>8</item>
+        <item>4</item>
+        <item>5</item>
+        <item>3</item>
+        <item>1</item>
+        <item>2</item>
+        <item>6</item>
+        <item>7</item>
+        <item>0</item>
+        <item>9</item>
+    </string-array>
+    <string-array name="home_longpress">
+        <item>Disabled</item>
+        <item>Application</item>
+        <item>Flashlight</item>
+        <item>Kill App</item>
+        <item>Recent Apps</item>
+        <item>Screenshot</item>
+        <item>Screen Recorder</item>
+        <item>Google Now</item>
+        <item>Voice Command</item>
+        <item>Lock Phone</item>
+    </string-array>
+    <string-array name="home_longpress_values">
+        <item>8</item>
+        <item>4</item>
+        <item>5</item>
+        <item>2</item>
+        <item>0</item>
+        <item>1</item>
+        <item>6</item>
+        <item>7</item>
+        <item>3</item>
+        <item>9</item>
+    </string-array>
+    <string-array name="home_tripletap">
+        <item>Disabled</item>
+        <item>Application</item>
+        <item>Flashlight</item>
+        <item>Kill App</item>
+        <item>Recent Apps</item>
+        <item>Screenshot</item>
+        <item>Screen Recorder</item>
+        <item>Google Now</item>
+        <item>Voice Command</item>
+        <item>Lock Phone</item>
+    </string-array>
+    <string-array name="home_tripletap_values">
+        <item>0</item>
+        <item>5</item>
+        <item>6</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>7</item>
+        <item>8</item>
+        <item>4</item>
+        <item>9</item>
+    </string-array>
 </resources>

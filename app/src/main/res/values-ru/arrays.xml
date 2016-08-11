@@ -137,4 +137,77 @@
         <item>EEEE dd/MM</item>
         <item>EEEE MM/dd</item>
     </string-array>
+
+    <string-array name="home_doubletap">
+        <item>Отключено</item>
+        <item>Приложение</item>
+        <item>Фонарик</item>
+        <item>Закрытие приложения</item>
+        <item>Недавние приложения</item>
+        <item>Снимок экрана</item>
+        <item>Запись экрана</item>
+        <item>Поиск Google</item>
+        <item>Голосовые команды (по умолчанию)</item>
+        <item>Блокировка</item>
+    </string-array>
+    <string-array name="home_doubletap_values">
+        <item>8</item>
+        <item>4</item>
+        <item>5</item>
+        <item>3</item>
+        <item>1</item>
+        <item>2</item>
+        <item>6</item>
+        <item>7</item>
+        <item>0</item>
+        <item>9</item>
+    </string-array>
+    <string-array name="home_longpress">
+        <item>Отключено</item>
+        <item>Приложение</item>
+        <item>Фонарик</item>
+        <item>Закрытие приложения</item>
+        <item>Недавние приложения (по умолчанию)</item>
+        <item>Снимок экрана</item>
+        <item>Запись экрана</item>
+        <item>Поиск Google</item>
+        <item>Голосовые команды</item>
+        <item>Блокировка</item>
+    </string-array>
+    <string-array name="home_longpress_values">
+        <item>8</item>
+        <item>4</item>
+        <item>5</item>
+        <item>2</item>
+        <item>0</item>
+        <item>1</item>
+        <item>6</item>
+        <item>7</item>
+        <item>3</item>
+        <item>9</item>
+    </string-array>
+    <string-array name="home_tripletap">
+        <item>Отключено</item>
+        <item>Приложение</item>
+        <item>Фонарик</item>
+        <item>Закрытие приложения</item>
+        <item>Недавние приложения</item>
+        <item>Снимок экрана</item>
+        <item>Запись экрана</item>
+        <item>Поиск Google</item>
+        <item>Голосовые команды</item>
+        <item>Блокировка</item>
+    </string-array>
+    <string-array name="home_tripletap_values">
+        <item>0</item>
+        <item>5</item>
+        <item>6</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>7</item>
+        <item>8</item>
+        <item>4</item>
+        <item>9</item>
+    </string-array>
 </resources>

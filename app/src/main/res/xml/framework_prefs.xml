@@ -111,4 +111,69 @@
             android:title="Запись экрана"/>
     </PreferenceScreen>
 
+    <PreferenceScreen
+        android:title="Кнопка Домой">
+
+        <PreferenceCategory
+            android:title="Двойное нажатие">
+            <com.wubydax.romcontrol.v2.prefs.FilePreference
+                android:defaultValue="false"
+                android:key="modcfg_enable_while_locked"
+                android:summaryOn="Включен"
+                android:summaryOff="Отключен"
+                android:title="Выбор при двойном нажатии"/>
+            <com.wubydax.romcontrol.v2.prefs.MyListPreference
+                android:dependency="modcfg_enable_while_locked"
+                android:defaultValue="7"
+                android:key="home_doubletap_button"
+                android:entries="@array/home_doubletap"
+                android:entryValues="@array/home_doubletap_values"
+                android:summary="%s"
+                android:title="Действие при двойном нажатии"/>
+            <com.wubydax.romcontrol.v2.prefs.IntentDialogPreference
+                android:dependency="modcfg_enable_while_locked"
+                android:key="doubletap_custom_app"
+                app:showSearch="true"
+                app:intentSeparator="\##"
+                android:summary="Нет"
+                android:title="Приложение при двойном нажатии"/>
+        </PreferenceCategory>
+
+        <PreferenceCategory
+            android:title="Тройное нажатие">
+            <com.wubydax.romcontrol.v2.prefs.MyListPreference
+                android:dependency="home_tripletap_button"
+                android:defaultValue="0"
+                android:key="home_tripletap_button"
+                android:entries="@array/home_tripletap"
+                android:entryValues="@array/home_tripletap_values"
+                android:summary="%s"
+                android:title="Действие при тройном нажатии"/>
+            <com.wubydax.romcontrol.v2.prefs.IntentDialogPreference
+                android:key="tripletap_custom_app"
+                app:showSearch="true"
+                app:intentSeparator="\##"
+                android:summary="Нет"
+                android:title="Приложение при тройном нажатии"/>
+        </PreferenceCategory>
+
+        <PreferenceCategory
+            android:title="Длительное нажатие">
+            <com.wubydax.romcontrol.v2.prefs.MyListPreference
+                android:dependency="home_longpress_button"
+                android:defaultValue="0"
+                android:key="home_longpress_button"
+                android:entries="@array/home_longpress"
+                android:entryValues="@array/home_longpress_values"
+                android:summary="%s"
+                android:title="Действие при длительном нажатии"/>
+            <com.wubydax.romcontrol.v2.prefs.IntentDialogPreference
+                android:key="longpress_custom_app"
+                app:showSearch="true"
+                app:intentSeparator="\##"
+                android:summary="Нет"
+                android:title="Приложение при длительном нажатии"/>
+        </PreferenceCategory>
+    </PreferenceScreen>
+
 </PreferenceScreen>
